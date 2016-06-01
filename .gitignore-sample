@@ -2,7 +2,6 @@
 app/**/*.js
 app/**/*.map
 
-App_Resources/
 /.vscode
 /hooks/
 /node_modules
