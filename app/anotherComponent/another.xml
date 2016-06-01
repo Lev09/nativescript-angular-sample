@@ -1,0 +1,9 @@
+<ActionBar title="Another Page">
+</ActionBar>
+
+<StackLayout id="mainStackLayout">
+    <Label text="My location" class="label"></Label>
+    <Label [text]="latitude" class="label"></Label>
+    <Label [text]="longitude" class="label"></Label>
+    <Button text="Get my location" (tap)="getLocation()"></Button>
+</StackLayout>

@@ -1,0 +1,13 @@
+<ActionBar title="Login form">
+</ActionBar>
+
+<StackLayout id="login-form">
+    <Label text="Username"></Label>
+    <TextField keyboardType="text" [(ngModel)]="user.username"></TextField>
+    
+    <Label text="Password"></Label>
+    <TextField secure="true" keyboardType="text"  [(ngModel)]="user.password"></TextField>
+    
+    <Button text="Log In" (tap)="login(user)"></Button>
+
+</StackLayout>

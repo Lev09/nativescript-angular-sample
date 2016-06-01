@@ -1,0 +1,13 @@
+#mainStackLayout {
+    padding-top: 30;
+    width: 70%;
+}
+
+button {
+    font-size: 14;
+}
+
+.label {
+    font-size: 24;
+    color: peru;
+}

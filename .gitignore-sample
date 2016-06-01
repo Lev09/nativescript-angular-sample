@@ -1,0 +1,11 @@
+.gitignore
+app/**/*.js
+app/**/*.map
+
+App_Resources/
+/.vscode
+/hooks/
+/node_modules
+/platforms
+
+/references.d.ts
